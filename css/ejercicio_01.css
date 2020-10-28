@@ -9,3 +9,11 @@ h3{
   color: white;
   background-color: rgb(225, 0, 0);
   font-family: 'Press Start 2P', cursive;
+}
+h5{
+  background-color: rgb(200, 0, 0);
+}
+
+p {
+  background-color: rgb(175, 0, 0);
+}
