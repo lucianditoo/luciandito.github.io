@@ -41,3 +41,10 @@ img {
   border: 2px solid black;
   border-radius: 21px;
 }
+
+.vinculo {
+  color: rgb(150, 225, 100);
+}
+.vinculo:hover {
+  color: rgb(155, 0, 155);
+}

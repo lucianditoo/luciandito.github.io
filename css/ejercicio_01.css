@@ -22,3 +22,10 @@ ul {
   color: : white;
   background-color: rgb(225, 0, 0);
 }
+
+.vinculo {
+  color: rgb(150, 225, 100);
+}
+.vinculo:hover {
+  color: rgb(155, 0, 155);
+}
