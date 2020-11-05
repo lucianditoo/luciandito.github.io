@@ -47,4 +47,5 @@ img {
 }
 .vinculo:hover {
   color: rgb(155, 0, 155);
+  text-decoration: none;
 }
