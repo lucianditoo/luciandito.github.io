@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Press+Start+2P&display=swap');
 
-body, h1 {
+body, h1,{
   margin: 0;
   padding: 0;
 }
@@ -14,10 +14,13 @@ body {
 h1 {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
+  color: rgb(150, 225, 100);
 }
 
 h2 {
   font-size: 21px;
+  text-decoration: underline;
+  color: red;
 }
 
 h3{
@@ -27,20 +30,27 @@ h3{
 
 
 h4 {
+  color: rgb(150, 225, 100);
   background-color: black;
   border-radius: 21px;
   text-align: center;
+  font-size: 21px;
 }
 
 img {
   display: block;
   width: 100%;
   height: auto;
-  border: 3px solid black;
   border-radius: 21px;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
 }
 
 /* Selectores personalizados */
@@ -81,15 +91,61 @@ img {
 }
 
 .amd {
-  color: red;
+  color: white;
   text-align: center;
   font-size: 30px;
   background-image: url(../img/amd.jpg);
   background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   display: block;
   width: auto;
-  height: 1000px;
-  margin-bottom: 10px
+  height: 100%;
+}
+.ryzen {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background-image: url(../img/ryzen.jpg);
+  background-size: contain;
+  background-position: top;
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.video_embed {
+  text-align: center;
+}
+.video {
+  padding: 10px;
+}
+
+.png {
+  display: block;
+  width: 70px;
+  margin: auto;
+}
+
+.experiencia h3 {
+  text-align: center;}
+.experiencia p {font-size: 18px;}
+
+.vinculo {
+  color: rgb(150, 225, 100);
+}
+.vinculo:hover {
+  color: rgb(255, 0, 0);
+  background-color: rgb(150, 225, 100);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: black;
+  border-radius: 21px;
+  text-align: center;
+}
+.horizontal {
+  display: inline-block;
+  padding: 10px;
 }
